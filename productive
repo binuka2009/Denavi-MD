@@ -1,3 +1,0 @@
-git clone --depth 1 --filter=blob:none --sparse https://github.com/denavigator/Denavi-MD.git
-cd Denavi-MD 
-git sparse-checkout set "root"
