@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['256708360344']
+  const ownerNumber = ['94769089430']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -78,7 +78,7 @@ console.log("Session downloaded ✅")
 
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 9090;
+const port = process.env.PORT || 8000;
   
   //=============================================
   
